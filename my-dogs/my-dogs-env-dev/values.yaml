@@ -1,0 +1,29 @@
+krush-env:
+  destination:
+    name: in-cluster
+    namespace: dev
+
+  applications:
+    tulo:
+      name: tulo
+      path: chart
+      repoURL: https://github.com/mrinalvirnave/krushapp-tulo.git
+      targetRevision: HEAD
+      values:
+        heading: Tulo
+        color: "pink"
+        sitePrefix: tulo-dev
+        text:
+          - "is a"
+          - "maltese mix"  
+    louie:
+      path: chart
+      repoURL: https://github.com/mrinalvirnave/krushapp-louie.git
+      targetRevision: HEAD
+      values:
+        heading: Louie
+        color: "lightgrey"
+        sitePrefix: louie-dev
+        text:
+          - "is a"
+          - "poodle mix"
