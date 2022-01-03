@@ -8,12 +8,11 @@ krush-env:
       name: tulo
       path: chart
       repoURL: https://github.com/mrinalvirnave/krushapp-tulo.git
-      targetRevision: HEAD
+      targetRevision: 1.0.0
       valueFiles:
       - "../values-dev.yaml"
       values:
         heading: Tulo
-        color: "pink"
         sitePrefix: tulo-dev
         text:
           - "is a"
