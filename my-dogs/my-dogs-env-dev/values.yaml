@@ -10,7 +10,7 @@ krush-env:
       repoURL: https://github.com/mrinalvirnave/krushapp-tulo.git
       targetRevision: HEAD
       valueFiles:
-      - "../values-dev.yaml"
+      - "../dev/values.yaml"
       # values:
       #   heading: Tulo
       #   sitePrefix: tulo-dev
