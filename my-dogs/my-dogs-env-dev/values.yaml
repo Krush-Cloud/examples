@@ -8,15 +8,15 @@ krush-env:
       name: tulo
       path: chart
       repoURL: https://github.com/mrinalvirnave/krushapp-tulo.git
-      targetRevision: 1.0.1
+      targetRevision: 1.0.0
       valueFiles:
       - "../values-dev.yaml"
-      values:
-        heading: Tulo
-        sitePrefix: tulo-dev
-        text:
-          - "is a"
-          - "Maltese mix"  
+      # values:
+      #   heading: Tulo
+      #   sitePrefix: tulo-dev
+      #   text:
+      #     - "is a"
+      #     - "Maltese mix"  
     louie:
       path: chart
       repoURL: https://github.com/mrinalvirnave/krushapp-louie.git
