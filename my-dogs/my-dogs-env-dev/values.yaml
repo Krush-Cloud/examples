@@ -11,12 +11,12 @@ krush-env:
       targetRevision: HEAD
       valueFiles:
       - "../dev/values.yaml"
-      # values:
-      #   heading: Tulo
-      #   sitePrefix: tulo-dev
-      #   text:
-      #     - "is a"
-      #     - "Maltese mix"  
+      values:
+        heading: Tulo Override
+        # sitePrefix: tulo-dev
+        # text:
+        #   - "is a"
+        #   - "Maltese mix"  
     louie:
       path: chart
       repoURL: https://github.com/mrinalvirnave/krushapp-louie.git
