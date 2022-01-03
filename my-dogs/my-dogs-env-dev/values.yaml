@@ -16,7 +16,7 @@ krush-env:
         sitePrefix: tulo-dev
         text:
           - "is a"
-          - "maltese mix"  
+          - "Maltese mix"  
     louie:
       path: chart
       repoURL: https://github.com/mrinalvirnave/krushapp-louie.git
