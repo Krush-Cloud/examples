@@ -11,6 +11,7 @@ krush-env:
       targetRevision: HEAD
       valueFiles:
       - "../dev/values.yaml"
+      - "../pre/values.yaml"
       values:
         heading: Tulo Override
         # sitePrefix: tulo-dev
