@@ -13,7 +13,7 @@ krush-env:
       - "../dev/values.yaml"
       values:
         heading: Tulo Override
-        color: "#ff99cc"
+        color: '#ff99cc'
         # sitePrefix: tulo-dev
         # text:
         #   - "is a"
