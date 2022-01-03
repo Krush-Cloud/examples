@@ -8,7 +8,7 @@ krush-env:
       name: tulo
       path: chart
       repoURL: https://github.com/mrinalvirnave/krushapp-tulo.git
-      targetRevision: "1.0.0"
+      targetRevision: HEAD
       valueFiles:
       - "/values-dev.yaml"
       # values:
